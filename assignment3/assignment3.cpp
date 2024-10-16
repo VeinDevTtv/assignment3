@@ -77,23 +77,22 @@ int main() {
 }
 
 
-//Welcome to the Trampoline Velocity Tester!
-//Enter the operator's name: Abdelkarim Ait Bourich
-//Enter the starting time in seconds : 1
-//Enter the first interval's end time: 0.1
-//Enter the second interval's end time: 0.01
-//Enter the third interval's end time: 0.001
-//Enter the test subject's name: Alex El chapo
-//
-//Results :
-//    height(m)   time interval(s) avg.velocity(m / s)
-//    10.100       1.000 -> 0.100               9.610
-//    1.451       0.100 -> 0.010              14.461
-//    0.150       0.010 -> 0.001              14.946
-//
-//    Logging Abdelkarim Ait Bourich out of the system.
-//    Hope Alex El chapo had a good trial.
-//    Have a nice day!
-//
-//    C:\Users\abdel\source\repos\assignment3\x64\Debug\assignment3.exe(process 37128) exited with code 0 (0x0).
-//    Press any key to close this window . . .
+/* Enter the operator's name: Abdelkarim Ait Bourich
+Enter the starting time in seconds : 1
+Enter the first interval's end time: 1.1
+Enter the second interval's end time: 1.01
+Enter the third interval's end time: 1.001
+Enter the test subject's name: Kareem
+
+Results :
+    height(m)   time interval(s) avg.velocity(m / s)
+    10.100       1.000 -> 1.100               4.710
+    10.571       1.100 -> 1.010               4.661
+    10.152       1.010 -> 1.001               5.146
+
+    Logging Abdelkarim Ait Bourich out of the system.
+    Hope Kareem had a good trial.
+    Have a nice day!
+
+    C:\Users\abdel\source\repos\assignment3\x64\Debug\assignment3.exe(process 18444) exited with code 0 (0x0).
+    Press any key to close this window . . . */
