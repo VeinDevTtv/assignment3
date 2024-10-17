@@ -11,12 +11,11 @@ int main() {
     const double GRAVITY = 9.8;
 
     string operatorName, testerName;
-
     double startTime, endTime1, endTime2, endTime3;
     double height1, height2, height3;
     double avgVelocity1, avgVelocity2, avgVelocity3;
 
-    cout << "Please enter the operator's name: ";
+    cout << "Enter the operator's name: ";
     getline(cin, operatorName);
 
     cout << "Enter the starting time in seconds: ";
@@ -34,7 +33,8 @@ int main() {
     getline(cin, testerName);
 
     // Calculate positions
-    double startHeight = startTime * (INITIAL_VELOCITY - 0.5 * GRAVITY * startTime);
+    double startHeight = startTime * (INITIAL_VELOCITY - 0.5 * GRAVITY *
+           startTime);
     height1 = endTime1 * (INITIAL_VELOCITY - 0.5 * GRAVITY * endTime1);
     height2 = endTime2 * (INITIAL_VELOCITY - 0.5 * GRAVITY * endTime2);
     height3 = endTime3 * (INITIAL_VELOCITY - 0.5 * GRAVITY * endTime3);
@@ -54,11 +54,9 @@ int main() {
     cout << setw(10) << height3 << "  " << startTime << " -> " << endTime3
         << setw(17) << avgVelocity3 << endl;
 
-
     cout << "\nLogging " << operatorName << " out of the system." << endl;
     cout << "Hope " << testerName << " had a good trial." << endl;
     cout << "Have a nice day!" << endl;
-
 
     return 0;
 }
@@ -80,7 +78,4 @@ height (m)  time interval (s)  avg. velocity (m/s)
 Logging Abdelkarim Ait Bourich out of the system.
 Hope Badr Badri had a good trial.
 Have a nice day!
-
-C:\Users\abdel\source\repos\assignment3\x64\Debug\assignment3.exe (process 22684) exited with code 0 (0x0).
-Press any key to close this window . . .
 */
